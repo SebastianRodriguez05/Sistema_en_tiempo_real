@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ESP-IDF / build artifacts
 build/
 sdkconfig.old
@@ -8,3 +9,11 @@ sdkconfig.old
 *.o
 *.obj
 .cache/
+=======
+# --- Reglas generales para ejemplos ESP-IDF en Tares_5_Octubre ---
+/Tares_5_Octubre/*/build/
+/Tares_5_Octubre/*/*.bin
+/Tares_5_Octubre/*/*.elf
+/Tares_5_Octubre/*/*.map
+/Tares_5_Octubre/*/sdkconfig.old
+>>>>>>> 99327688cbb496b9addba352fd53114f085097aa

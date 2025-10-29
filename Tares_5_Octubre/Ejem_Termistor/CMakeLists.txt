@@ -5,8 +5,4 @@ cmake_minimum_required(VERSION 3.16)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 # "Trim" the build. Include the minimal set of components, main, and anything it depends on.
 idf_build_set_property(MINIMAL_BUILD ON)
-<<<<<<< HEAD
-project(Control_LED_RGB)
-=======
-project(Led_PWM)
->>>>>>> 99327688cbb496b9addba352fd53114f085097aa
+project(Ejem_Termitor)
