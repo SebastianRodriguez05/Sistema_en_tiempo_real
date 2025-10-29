@@ -1,0 +1,10 @@
+# ESP-IDF / build artifacts
+build/
+sdkconfig.old
+*.bin
+*.elf
+*.map
+*.log
+*.o
+*.obj
+.cache/

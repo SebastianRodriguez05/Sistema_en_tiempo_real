@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "oneshot_read_main.c"
+        "drv_rgb.c"
+        "chromein.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        esp_driver_ledc
+        esp_adc
+)
